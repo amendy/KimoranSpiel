@@ -1,0 +1,26 @@
+digraph {
+concentrate=true
+"Kimoran_Berg";
+"Askhora";
+"Beramorin";
+"Ostergaard";
+"Uthenwold";
+"Kimoran_Berg" -> "Askhora"  [label="5" dir=both color="#ff0000" ];
+"Askhora" -> "Kimoran_Berg"  [label="5" dir=both color="#ff0000" ];
+"Beramorin" -> "Ostergaard"  [label="5" dir=both color="#ff0000" ];
+"Ostergaard" -> "Beramorin"  [label="5" dir=both color="#ff0000" ];
+"Kimoran_Berg" -> "Askhora"  [label="3" dir=both color="#ff0000" ];
+"Askhora" -> "Kimoran_Berg"  [label="3" dir=both color="#ff0000" ];
+"Askhora" -> "Ostergaard"  [label="3" dir=both color="#ff0000" ];
+"Ostergaard" -> "Askhora"  [label="3" dir=both color="#ff0000" ];
+"Askhora" -> "Uthenwold"  [label="3" dir=both color="#ff0000" ];
+"Uthenwold" -> "Askhora"  [label="3" dir=both color="#ff0000" ];
+"Uthenwold" -> "Kimoran_Berg"  [label="3" dir=both color="#ff0000" ];
+"Kimoran_Berg" -> "Uthenwold"  [label="3" dir=both color="#ff0000" ];
+"Beramorin" -> "Askhora"  [label="5" dir=both color="#ff0000" ];
+"Askhora" -> "Beramorin"  [label="5" dir=both color="#ff0000" ];
+"Ostergaard" -> "Beramorin"  [label="3" dir=both color="#ff0000" ];
+"Beramorin" -> "Ostergaard"  [label="3" dir=both color="#ff0000" ];
+"Beramorin" -> "Kimoran_Berg"  [label="3" dir=both color="#ff0000" ];
+"Kimoran_Berg" -> "Beramorin"  [label="3" dir=both color="#ff0000" ];
+}

@@ -1,0 +1,1 @@
+bin\dot.exe -Tpng graph.dot -o out.png
